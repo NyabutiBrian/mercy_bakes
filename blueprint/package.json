@@ -1,0 +1,18 @@
+{
+  "devDependencies": {
+    "tailwindcss": "^3.4.3"
+  },
+  "dependencies": {
+    "flowbite": "^2.3.0"
+  },
+  "name": "blueprint",
+  "description": "- [Overview](#overview)\r     - [Introduction](#introduction)\r - [Process + Development](#process-+-development)\r     - [HTML + CSS + Tailwind Development](#html-+-css+-tailwind-development)\r - [Useful Resources](#useful-resources)\r - [Author](#author)",
+  "version": "1.0.0",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "blueprint": "npx tailwindcss -i ./src/input.css -o ./build/assets/css/style.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
