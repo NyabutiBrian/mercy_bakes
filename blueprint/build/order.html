@@ -60,10 +60,14 @@
                 <p class="font-Shrikhand text-white text-lg cursor-pointer md:hidden">Mercy Bakes</p>
     
                 <div class="hidden md:flex items-center space-x-8 text-white">
-                    <a href="./index.html" class="hover:text-secondary transition duration-200 transform md:hover:scale-110">Home</a>
-                    <a href="#categories" class="hover:text-secondary transition duration-200 transform md:hover:scale-110">Deals & Offers</a>
-                    <a href="#about" class="hover:text-secondary transition duration-200 transform md:hover:scale-110">About</a>
-                    <a href="#footer" class="hover:text-secondary transition duration-200 transform md:hover:scale-110">Contacts Us</a>
+                    <a href="./index.html"
+                        class="hover:text-secondary transition duration-200 transform md:hover:scale-110">Home</a>
+                    <a href="./index.html#categories"
+                        class="hover:text-secondary transition duration-200 transform md:hover:scale-110">Deals & Offers</a>
+                    <a href="./index.html#about"
+                        class="hover:text-secondary transition duration-200 transform md:hover:scale-110">About</a>
+                    <a href="#footer"
+                        class="hover:text-secondary transition duration-200 transform md:hover:scale-110">Contacts Us</a>
                 </div>
     
                 <div class="items-center space-x-5 text-primary md:hidden">
@@ -91,155 +95,102 @@
             class="opacity-0 transform translate-x-full md:hidden fixed shadow-2xl rounded-xl p-4 left-10 right-10  transition-transform duration-500 primary-grad-to-br">
             <div class="flex flex-col items-center space-y-5 text-white">
                 <a href="./index.html" class="hover:text-secondary">Home</a>
-                <a href="#categories" class="hover:text-secondary">Deals & Offers</a>
-                <a href="#about" class="hover:text-secondary">About</a>
+                <a href="./index.html#categories" class="hover:text-secondary">Deals & Offers</a>
+                <a href="./index.html#about" class="hover:text-secondary">About</a>
                 <a href="#footer" class="hover:text-secondary">Contact Us</a>
             </div>
         </div>
     </section>
 
-    <!-- Carousel Slide by Flowbite -->
-    <section class="sm:max-w-screen-xl mx-auto py-8">
-        <div id="default-carousel" class="relative w-full" data-carousel="slide">
-            <!-- Carousel wrapper -->
-            <div class="relative h-80 overflow-hidden xl:rounded-3xl md:h-96">
-                <!-- Item 1 -->
-                <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                    <picture>
-                        <!-- Image for screens wider than 768px -->
-                        <source media="(min-width: 768px)" srcset="./assets/images/cakes/XL/blueberryXL.png">
-                        <!-- Image for screens smaller than 768px -->
-                        <img src="./assets/images/cakes/mobile/blueberryXS.png" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
-                    </picture>
-                </div>
-                <!-- Item 2 -->
-                <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                    <picture>
-                        <!-- Image for screens wider than 768px -->
-                        <source media="(min-width: 768px)" srcset="./assets/images/cakes/XL/chocolateXL.png">
-                        <!-- Image for screens smaller than 768px -->
-                        <img src="./assets/images/cakes/mobile/chocolateXS.png" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
-                    </picture>
-                </div>
-                <!-- Item 3 -->
-                <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                    <picture>
-                        <!-- Image for screens wider than 768px -->
-                        <source media="(min-width: 768px)" srcset="./assets/images/cakes/XL/redvelvetXL.png">
-                        <!-- Image for screens smaller than 768px -->
-                        <img src="./assets/images/cakes/mobile/velvetXS.png" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
-                    </picture>
-                </div>
-                <!-- Item 4 -->
-                <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                    <picture>
-                        <!-- Image for screens wider than 768px -->
-                        <source media="(min-width: 768px)" srcset="./assets/images/cakes/XL/strawberryXL.png">
-                        <!-- Image for screens smaller than 768px -->
-                        <img src="./assets/images/cakes/mobile/strawberryXS.png" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
-                    </picture>
-                </div>
-                <!-- Item 5 -->
-                <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                    <picture>
-                        <!-- Image for screens wider than 768px -->
-                        <source media="(min-width: 768px)" srcset="./assets/images/cakes/XL/vanillaXL.png">
-                        <!-- Image for screens smaller than 768px -->
-                        <img src="./assets/images/cakes/mobile/vanillaXS.png" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
-                    </picture>
-                </div>
-            </div>
-            <!-- Slider indicators -->
-            <div class="absolute z-30 flex -translate-x-1/2 bottom-5 left-1/2 space-x-3 rtl:space-x-reverse">
-                <button type="button" class="w-3 h-3 rounded-full" aria-current="true" aria-label="Slide 1" data-carousel-slide-to="0"></button>
-                <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 2" data-carousel-slide-to="1"></button>
-                <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 3" data-carousel-slide-to="2"></button>
-                <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 4" data-carousel-slide-to="3"></button>
-                <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 5" data-carousel-slide-to="4"></button>
-            </div>
-            <!-- Slider controls -->
-            <button type="button" class="absolute top-0 start-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-prev>
-                <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/50 group-hover:bg-white  group-focus:ring-4 group-focus:ring-white group-focus:outline-none">
-                    <svg class="w-4 h-4 text-darky rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
-                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 1 1 5l4 4"/>
-                    </svg>
-                    <span class="sr-only">Previous</span>
-                </span>
-            </button>
-            <button type="button" class="absolute top-0 end-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-next>
-                <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/50 group-hover:bg-white  group-focus:ring-4 group-focus:ring-white group-focus:outline-none">
-                    <svg class="w-4 h-4 text-darky rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
-                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4"/>
-                    </svg>
-                    <span class="sr-only">Next</span>
-                </span>
-            </button>
-        </div>
-    </section>
-
-    <!-- Features -->
+    <!-- Product Order -->
     <section class="max-w-screen-xl mx-auto">
-        <div class="py-4 mx-4">
-            <div class="grid grid-cols-1 lg:grid-cols-3 gap-6 mx-auto justify-center text-darky">
-                <div class="rounded-3xl border-primary border-t-2 lg:border-t-0 lg:border-l-2 px-3 py-6 flex justify-center items-center gap-5 shadow-lg transition duration-200 transform hover:scale-105">
-                    <img src="assets/images/icons/delivery-van.svg" title="SVG Features Icons" alt="Delivery van" class="w-12 h-12 object-contain">
-                    <div>
-                        <p class="font-medium capitalize text-lg">Fast Delivery</p>
-                        <p class="text-gray-500 text-sm">Order over Ksh 1,000</p>
+        <div class="mx-4">
+            <!-- Breadcrumb -->
+            <div class="container py-4 flex items-center gap-3">
+                <a href="./index.html">
+                    <svg xmlns="http://www.w3.org/2000/svg" width='1rem' fill='#234645' viewBox="0 0 576 512"><path d="M575.8 255.5c0 18-15 32.1-32 32.1h-32l.7 160.2c0 2.7-.2 5.4-.5 8.1V472c0 22.1-17.9 40-40 40H456c-1.1 0-2.2 0-3.3-.1c-1.4 .1-2.8 .1-4.2 .1H416 392c-22.1 0-40-17.9-40-40V448 384c0-17.7-14.3-32-32-32H256c-17.7 0-32 14.3-32 32v64 24c0 22.1-17.9 40-40 40H160 128.1c-1.5 0-3-.1-4.5-.2c-1.2 .1-2.4 .2-3.6 .2H104c-22.1 0-40-17.9-40-40V360c0-.9 0-1.9 .1-2.8V287.6H32c-18 0-32-14-32-32.1c0-9 3-17 10-24L266.4 8c7-7 15-8 22-8s15 2 21 7L564.8 231.5c8 7 12 15 11 24z"/></svg>
+                </a>
+                <span class="text-sm text-gray-400">
+                    <svg xmlns="http://www.w3.org/2000/svg" width='0.6rem' fill='#234645' viewBox="0 0 320 512"><path d="M310.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L242.7 256 73.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z"/></svg>
+                </span>
+                <p class="text-primary font-medium font-Shrikhand">Checkout</p>
+            </div>
+
+            <!-- Product Checkout -->
+            <div class="grid md:grid-cols-12 items-start pt-4 gap-4">
+                <!-- Left -->
+                <div class="md:col-span-7 text-primary border-primary border-t-2 md:border-t-0 md:border-l-2 px-4 py-8 rounded-3xl shadow-2xl">
+                    <h3 class="text-lg font-semibold mb-4">CHECKOUT</h3>
+                    <div class="space-y-4">
+                        <p class="font-medium">
+                            Orders are made via WhatsApp Message, Instagram Direct Message or a Call. <br>
+                            By placing your Order Here, you will be redirected to our WhatsApp Contact number.
+                            Enter your name and send message. <br><br>
+
+                            We will get in touch with you as soon as possible.
+                        </p>
                     </div>
                 </div>
-
-                <div class="rounded-3xl border-primary border-t-2 lg:border-t-0 lg:border-l-2 px-3 py-6 flex justify-center items-center gap-5 shadow-lg transition duration-200 transform hover:scale-105">
-                    <img src="assets/images/icons/money-back.svg" title="SVG Features Icons" alt="Money Refund" class="w-12 h-12 object-contain">
-                    <div>
-                        <p class="font-medium capitalize text-lg">Money Returns</p>
-                        <p class="text-gray-500 text-sm">24 hours money returns</p>
+        
+                <!-- Right -->
+                <div class="md:col-span-5 text-primary border-primary border-t-2 md:border-t-0 md:border-l-2 px-4 py-8 rounded-3xl shadow-2xl">
+                    <h3 class="text-lg font-semibold mb-4">ORDER SUMMARY</h3>
+                    <div class="space-y-2">
+                        <div class="flex justify-between">
+                            <div>
+                                <h5 class="text-gray-800 font-medium">1/4 Sliced Blueberry Cake</h5>
+                                <p class="text-sm text-gray-600">SKU: VANCAKE001</p>
+                            </div>
+                            <p class="text-gray-600">
+                                x1
+                            </p>
+                            <p class="text-gray-800 font-medium">Ksh 500</p>
+                        </div>
                     </div>
-                </div>
-
-                <div class="rounded-3xl border-primary border-t-2 lg:border-t-0 lg:border-l-2 px-3 py-6 flex justify-center items-center gap-5 shadow-lg transition duration-200 transform hover:scale-105">
-                    <img src="assets/images/icons/service-hours.svg" title="SVG Features Icons" alt="Customer Support" class="w-12 h-12 object-contain">
-                    <div>
-                        <p class="font-medium capitalize text-lg">Extra Services</p>
-                        <p class="text-gray-500 text-sm">Customer support</p>
+        
+                    <div class="flex justify-between border-b border-gray-200 mt-1 text-gray-800 font-medium py-3 uppercas">
+                        <p>subtotal</p>
+                        <p>Ksh 500</p>
                     </div>
+        
+                    <div class="flex justify-between border-b border-gray-200 mt-1 text-gray-800 font-medium py-3 uppercas">
+                        <p>shipping</p>
+                        <p>Ksh 100</p>
+                    </div>
+        
+                    <div class="flex justify-between text-gray-800 font-medium py-3 uppercas">
+                        <p class="font-semibold">Total</p>
+                        <p>Ksh 600</p>
+                    </div>
+        
+                    <!-- <div class="flex items-center mb-4 mt-2">
+                        <input type="checkbox" name="aggrement" id="aggrement"
+                            class="text-primary focus:ring-0 rounded-sm cursor-pointer w-3 h-3">
+                        <label for="aggrement" class="text-gray-600 ml-3 cursor-pointer text-sm">I agree to the <a href="#"
+                                class="text-primary">terms & conditions</a></label>
+                    </div> -->
+        
+                    <button onclick="redirectToWhatsApp()" class="block w-full py-3 px-4 text-center text-white bg-primary border border-primary rounded-3xl hover:bg-transparent hover:text-primary transition font-medium">Place Order via WhatsApp</button>
                 </div>
             </div>
+            
         </div>
     </section>
 
-    <!-- Category: Treats -->
-    <section class="max-w-screen-xl mx-auto scroll-m-16" id="categories">
-        <div class="py-8 mx-4">
-            <h2 class="text-2xl font-medium text-primary font-Shrikhand text-center mb-6">Treats</h2>
-            <div class="grid grid-cols-2 lg:grid-cols-3 gap-3">
-                <div class="relative rounded-tr-3xl rounded-bl-3xl overflow-hidden group bg-cover bg-no-repeat bg-center py-32" style="background-image: url('./assets/images/category/cupcakes.jpg');">
-                    <a href="./category.html" class="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center text-xl text-white font-Shrikhand font-medium group-hover:bg-opacity-60 transition">Cupakes</a>
-                </div>
-                <div class="relative rounded-tr-3xl rounded-bl-3xl overflow-hidden group bg-cover bg-no-repeat bg-center py-32" style="background-image: url('./assets/images/category/velvetXS.png');">
-                    <a href="./category.html" class="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center text-xl text-white font-Shrikhand font-medium group-hover:bg-opacity-60 transition">Cakes</a>
-                </div>
-                <div class="relative rounded-tr-3xl rounded-bl-3xl overflow-hidden group bg-cover bg-no-repeat bg-center py-32" style="background-image: url('./assets/images/category/donuts.jpg');">
-                    <a href="./category.html" class="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center text-xl text-white font-Shrikhand font-medium group-hover:bg-opacity-60 transition">Donuts</a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Yum! Yumm! Yummy! -->
+    <!-- More Delights -->
     <section class="max-w-screen-xl mx-auto">
         <div class="py-8 mx-4">
-            <h2 class="text-2xl font-medium text-primary font-Shrikhand text-center mb-6">Yum! Yumm! Yummy!</h2>
+            <h2 class="text-2xl font-medium text-primary font-Shrikhand text-center mb-6">More Delights</h2>
             <div class="grid grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-4">
 
                 <!-- Product 1 -->
                 <div class="bg-white shadow-2xl rounded-3xl overflow-hidden group transition duration-200 transform hover:scale-105">
-                    <div class="relative bg-cover bg-no-repeat bg-center py-32" style="background-image: url('./assets/images/cakes/mobile/strawberryXS.png');">
+                    <div class="relative bg-cover bg-no-repeat bg-center py-32" style="background-image: url('./assets/images/cakes/mobile/blueberryXS.png');">
                     </div>
 
                     <div class="py-4 px-2 text-primary ">
                         <div>
-                            <p class="font-medium mb-2">1/4 Sliced Strawberry Cake</p>
+                            <p class="font-medium mb-2">1/4 Sliced Blueberry Cake</p>
                         </div>
 
                         <div class="flex justify-between items-center">
@@ -256,12 +207,12 @@
 
                 <!-- Product 2 -->
                 <div class="bg-white shadow-2xl rounded-3xl overflow-hidden group transition duration-200 transform hover:scale-105">
-                    <div class="relative bg-cover bg-no-repeat bg-center py-32" style="background-image: url('assets/images/donuts/donuts2.jpg');">
+                    <div class="relative bg-cover bg-no-repeat bg-center py-32" style="background-image: url('assets/images/donuts/donuts3.jpg');">
                     </div>
 
                     <div class="py-4 px-2 text-primary ">
                         <div>
-                            <p class="font-medium mb-2">White Creamed Donut</p>
+                            <p class="font-medium mb-2">Chocolate Creamed Donut</p>
                         </div>
 
                         <div class="flex justify-between items-center">
@@ -278,7 +229,7 @@
 
                 <!-- Product 3 -->
                 <div class="bg-white shadow-2xl rounded-3xl overflow-hidden group transition duration-200 transform hover:scale-105">
-                    <div class="relative bg-cover bg-no-repeat bg-center py-32" style="background-image: url('assets/images/cupcakes/cupcakes4.jpg');">
+                    <div class="relative bg-cover bg-no-repeat bg-center py-32" style="background-image: url('assets/images/cupcakes/cupcakes2.jpg');">
                     </div>
 
                     <div class="py-4 px-2 text-primary ">
@@ -300,12 +251,12 @@
 
                 <!-- Product 4 -->
                 <div class="bg-white shadow-2xl rounded-3xl overflow-hidden group transition duration-200 transform hover:scale-105">
-                    <div class="relative bg-cover bg-no-repeat bg-center py-32" style="background-image: url('assets/images/cakes/mobile/chocolateXS.png');">
+                    <div class="relative bg-cover bg-no-repeat bg-center py-32" style="background-image: url('assets/images/cakes/mobile/vanillaXS.png');">
                     </div>
 
                     <div class="py-4 px-2 text-primary ">
                         <div>
-                            <p class="font-medium mb-2">1/4 Sliced Chocolate Cake</p>
+                            <p class="font-medium mb-2">1/4 Sliced Vanilla Cake</p>
                         </div>
 
                         <div class="flex justify-between items-center">
@@ -320,31 +271,6 @@
                     </div>
                 </div>
 
-            </div>
-        </div>
-    </section>
-
-    <!-- About Mercy Bakes -->
-    <section class="max-w-screen-xl mx-auto scroll-m-16" id="about">
-        <div class="py-8 mx-4">
-            <div class="grid md:grid-cols-3">
-                <div class="md:col-span-1 flex items-center justify-center">
-                    <img src="./assets/images/bonappetit.png" alt="bonappetite" class="w-2/4 sm:w-1/4 md:w-3/4 xl:w-2/4">
-                </div>
-                <div class="md:col-span-2 md:py-8 md:px-16 px-2 text-justify">
-                    <p class="text-darky">
-                        Welcome to a world of sweet, fruity delight with our exquisite Cakes, Donuts and Cupcakes.
-                        Experience the perfect blend of luscious fruits, moist cake layers, and decadent 
-                        frosting that will transport your taste buds to a heavenly realm. <br>
-                        Discover a symphony of flavors in every bite, and order now to make 
-                        your moments extra special. <br><br>
-        
-                        At <span class="text-primary font-Shrikhand">Mercy Bakes</span>, we bake happiness into every slice.
-                        Join us in celebrating the enchanting world of blueberry cakes where every moment is a celebration. <br><br>
-                        
-                        <p class="text-primary font-Shrikhand text-end">-- Savor the moment, taste the magic--</p>
-                    </p>
-                </div>
             </div>
         </div>
     </section>
