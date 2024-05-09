@@ -1,0 +1,69 @@
+{
+    "category" : [
+        {
+            "id" : 1,
+            "title" : "Cupcakes",
+            "image" : "images/category/cupcakes.jpg",
+            "slug" : "cupcakes"
+        },
+        {
+            "id" : 2,
+            "title" : "Cakes",
+            "image" : "images/category/velvetXS.png",
+            "slug" : "cakes"
+        },
+        {
+            "id" : 3,
+            "title" : "Donuts",
+            "image" : "images/category/donuts.jpg",
+            "slug" : "donuts"
+        }
+    ],
+
+    "product" : [
+        {
+            "id" : 1,
+            "category" : "cakes",
+            "image" : "images/products/cakes/mobile/blueberryXS.png",
+            "title" : "1/4 Sliced Blueberry Cake",
+            "SKU" : "VANCAKE001",
+            "price" : 500,
+            "quantity" : 1,
+            "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos eius eum reprehenderit dolore vel mollitia optio consequatur hic asperiores inventore suscipit, velit consequuntur, voluptate doloremque iure necessitatibus adipisci magnam porro.",
+            "slug" : "sliced-blueberry-cake"
+        },
+        {
+            "id" : 2,
+            "category" : "donuts",
+            "image" : "images/products/donuts/donuts3.jpg",
+            "title" : "Chocolate Creamed Donut",
+            "SKU" : "CREDON002",
+            "price" : 120,
+            "quantity" : 1,
+            "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos eius eum reprehenderit dolore vel mollitia optio consequatur hic asperiores inventore suscipit, velit consequuntur, voluptate doloremque iure necessitatibus adipisci magnam porro.",
+            "slug" : "chocolate-creamed-donut"
+        },
+        {
+            "id" : 3,
+            "category" : "cupcakes",
+            "image" : "images/products/cupcakes/cupcakes.jpg",
+            "title" : "Creamed Cupcake",
+            "SKU" : "CRECUP003",
+            "price" : 150,
+            "quantity" : 1,
+            "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos eius eum reprehenderit dolore vel mollitia optio consequatur hic asperiores inventore suscipit, velit consequuntur, voluptate doloremque iure necessitatibus adipisci magnam porro.",
+            "slug" : "creamed-cupcake"
+        },
+        {
+            "id" : 4,
+            "category" : "cakes",
+            "image" : "images/products/cakes/mobile/vanillaXS.png",
+            "title" : "1/4 Sliced Vanilla Cake",
+            "SKU" : "VANCAKE004",
+            "price" : 500,
+            "quantity" : 1,
+            "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos eius eum reprehenderit dolore vel mollitia optio consequatur hic asperiores inventore suscipit, velit consequuntur, voluptate doloremque iure necessitatibus adipisci magnam porro.",
+            "slug" : "sliced-vanilla-cake"
+        }
+    ]
+}

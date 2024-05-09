@@ -22,9 +22,12 @@
 - The templates are in the folder blueprint.
 - [E-commerce blueprint]()
 
+### Next.js Development
+- The codes are in the folder frontend.
+
 ## Useful Resources
 - [Tailwind Website](https://tailwindcss.com/)
-
+- [Next Js](https://nextjs.org/docs/getting-started/installation)
 
 ## Author
 
